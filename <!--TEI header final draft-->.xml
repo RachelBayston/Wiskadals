@@ -1,0 +1,495 @@
+<!--TEI attempted final draft-->
+<teiHeader>
+  <fileDesc> 
+    <titleStmt>
+      <title>Höstern och Vintern 1951-52 AB Wiskadals Fabrik — womenswear </title>
+      <author>Wiskadals Fabrik AB</author>
+      <principal>Sanam Ali</principal>
+      <principal>Rachel Bayston</principal>
+    </titleStmt>
+     <publicationStmt>
+      <publisher>Högskolan Borås</publisher>
+      <date>2023-06-05</date>
+      <availability>
+            <licence>CC BY-NC 4.0</licence>
+            <availabilityStatus status="restricted">
+               Available under the terms of the licence. Attribution required.
+            </availabilityStatus>
+         </availability>
+      <pubPlace>Borås, Västra Götaland</pubPlace>
+    </publicationStmt>
+   
+   <!--Describing our responsibilities on the project-->
+   <respStmt>
+  <resp>Responsibilies</resp>
+    <resp>TEI encoding</resp>
+          <name>Sanam Ali</name>
+          <name>Rachel Bayston</name>
+    <resp>Custom TEI elements</resp>
+          <name>Sanam Ali</name>
+          <p>TEI framework extended to accommodate terms describing womenswear style features and materials.</p>
+    <resp>OCR</resp>
+          <name>Sanam Ali</name>
+    <resp>Transcription corrections</resp>
+          <name>Sanam Ali</name>
+          <name>Rachel Bayston</name>
+    <resp>XST stylesheet and transformation</resp>
+          <name>Sanam Ali</name>
+          <name>Rachel Bayston</name>
+    <resp>TEI header</resp>
+          <name>Rachel Bayston</name>
+  </respStmt>
+
+<!--publication statement describing publication of the project-->
+      <publicationStmt>
+        <publisher>TEI @Borås</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Borås Högskolan</orgName>
+            <street>Allegatan</street>
+            <settlement>Borås</settlement>
+            <postCode>506943</postCode>
+            <country/>
+          </address>
+        </pubPlace>
+        <distributor> IT services, Borås Högskolan </distributor>
+        <authority>Sanam Ali</authority>
+        <authority>Sanam Ali</authority>
+        <date when="2023-06-05">
+        <availability>
+          <licence> Licenced with a <ref target="https://creativecommons.org/licenses/by-nc/4.0/">
+              Creative Commons Attribution </ref>licence. </licence>
+        </availability>
+      </publicationStmt>
+
+<!--Source description giving information on the source document-->
+      <sourceDesc>
+    <p>A hardcover bound copy of the Autumn-Winter 1951-52 clothing catalog published by Borås clothing and homeware company AB Wiskadals Fabrik, bound for company director Sara Häggström at an unknown date and supplied to the authors of this document courtesy of Borås Textilmuseet.</p>
+      <bibl>
+        <titleStmt>
+          <title>Höstern och Vintern 1951-52</title>
+        </titleStmt>
+        <author>AB Wiskadals Fabrik</author>
+        <publicationStmt>
+          <publisher>AB Åetå-tryck</publisher>
+          <date>1951</date>
+          <pubPlace>Stockholm</pubPlace>
+        </publicationStmt>
+        <biblScope type="volume">51</biblScope>
+      </bibl>
+<!--description of the manuscript itself -->
+      <msDesc>
+               <msIdentifier>
+                  <settlement>Borås</settlement>
+                  <institution>Borås Textilmuseet</institution>
+                  <p>There is no manuscript identification information, since the original comes from a collection of ephemera.</p>
+               </msIdentifier>
+               <msContents>
+               <!--This summary is now picked up by the XML stylesheet and presented as the project description on the homepage.-->
+                  <summary>
+                     
+                     
+                     This Autumn-Winter issue of the clothing catalog from the Wiskadals Fabrik AB company is for 1951-52 runs 
+                     to 332 pages, containing clothing, household items, consumer goods and children's toys. A hardcover bound copy, 
+                     bound for company director Sara Häggström at an unknown date, was supplied to the authors of this document 
+                     courtesy of Johannes Daun at Borås Textilmuseet.
+                     
+                     Pages 40 and 41, showing a collection of women's knitted sweaters in variopus styles, patterns and knits, have been 
+                     digitized for this project. 
+
+    
+                  </summary>
+               </msContents>
+               </msDesc>
+     </sourceDesc>
+     </fileDesc>
+<!--These are keywords from the Swedish kungsbiblitek's controlled vocabulary of keywords, which can be seen at https://id.kb.se/find?q=%2a&and-inScheme.%40id=https%3A%2F%2Fid.kb.se%2Fterm%2Fsao-->
+   <textClass>
+      <keywords scheme="Svenska ämnesorda">
+        <term type="subject" xml:lang="eng">Clothing--history </term>
+        <term type="subject" xml:lang="eng">Clothing--production </term>
+        <term type="subject" xml:lang="eng">Clothing--gender aspects </term>
+        <term type="subject" xml:lang="eng">Fashion design </term>
+        <term type="subject" xml:lang="eng">Garment industry </term>
+        <term type="subject" xml:lang="eng">Fashion </term>
+        <term type="subject" xml:lang="eng">Sweaters </term>
+        <term type="subject" xml:lang="eng">Outerwear </term>
+        <term type="subject" xml:lang="eng">Work clothes </term>
+        <term type="subject" xml:lang="eng">Womens clothing </term>
+        <term type="subject" xml:lang="swe">Kläder </term>
+        <term type="subject" xml:lang="swe">1950-talet  </term>
+        <term type="subject" xml:lang="swe">Mode  </term>
+        <term type="subject" xml:lang="swe">Kvinnokläder </term>
+        <term type="subject" xml:lang="swe">Vardagskläder </term>
+        <term type="subject" xml:lang="swe">Ytterkläder </term>
+        <term type="subject" xml:lang="swe">Textilier  </term>
+        <term type="subject" xml:lang="swe">Damkläder</term>
+        <term type="subject" xml:lang="swe">Vintagekläder </term>
+        </keywords>
+    </textClass>
+
+    <encodingDesc>
+            <projectDesc>
+                <p> This assignment is completed as part of the course "Digital Cultural Heritage
+                    Spring 2023" in Univeristy of Borås. The assignment is to encode a text with
+                    appropriate TEI elements for the understanding of the different TEI elements.
+                </p>
+            </projectDesc>
+            <!--How about: A project to demonstrate both the feasibility of digitizing the archives 
+            at Borås Textilmuseet and our ability to effectively utilize the relevant technologies and 
+            techniques as part of Borås Högskolan's Masters in Library and Information Science.-->
+            <editorialDecl>
+                <correction>
+                    <p>Spellings errors, lexical or printing errros have not been corrected to
+                        maintain authencinity of the original printed catalog</p>
+                </correction>
+                <hyphenation>
+                    <p>Hyphens have been transcribed as they appeared in the original print</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+    <langUsage>
+      <language ident="swe" usage="written"> 
+        <desc> 
+            Swedish (Svenska)
+        </desc> 
+       </language>
+    </langUsage>
+    <extent>332 pages</extent>
+    </profileDesc>
+</teiHeader>
+ <!--                    Facismile Description                 -->
+    <facsimile>
+        <surface xml:id="pg40_41"> <!-- This is encodes the image showing both 40 and 41 sides -->
+            <figure>
+                <label>Page 40 and 41 </label>
+                <figDesc> An image of pages 40 and 41 from A.B Wiskadals Fabrik Catalog. It includes
+                    information regarding the various styles of jumpers available during the catalog
+                    issue of Fall/winter 1951 and 1952</figDesc>
+                <graphic xml:id="pg40_41_full" url="asset/img/pg_40_41.jpg"/>
+                
+            </figure>
+        </surface>
+        <surface xml:id="pg_40"> <!-- This encodes only the image showing the page number 40 -->
+            <figure>
+                <label>Page 40</label>
+                <figDesc> An image of pages 40 from A.B Wiskadals Fabrik Catalog. It includes
+                    information regarding the various styles of jumpers available during the catalog
+                    issue of Fall/winter 1951 and 1952</figDesc>
+                
+                <graphic xml:id="pg_40_full" url="asset/img/pg_40.jpg"/>
+                
+            
+            </figure>
+        </surface>
+        <surface xml:id="pg_41"> <!-- This encodes only the image showing the page number 41 -->
+            <figure>
+                <label>Page 41 </label>
+                <figDesc> An image of pages 41 from A.B Wiskadals Fabrik Catalog. It includes
+                    information regarding the various styles of jumpers available during the catalog
+                    issue of Fall/winter 1951 and 1952</figDesc>
+                <graphic xml:id="pg_41_full" url="asset/img/pg_41.jpg"/>
+            </figure>
+        </surface>
+    </facsimile>
+    <text xml:lang="swe">
+        <body>
+            <pb n="40"/>
+            <!-- specify a div for each page and refer each page to the image using facs attribute, id pg_40 is id of the surface containing the image -->
+            <div type="page" facs="#pg_40"> 
+            <div>
+                <head rend="case(allcaps)"> ELEGANTA JUMPERNYHETER </head>
+            </div>
+            <div type="column" n="1">
+                <div type="list">
+                <!-- Lists have been used to encode each article of clothing as an item -->
+                <list>
+                    <item>
+                        <p>
+                            <idno>Y 1421</idno>
+                            <!-- each article of clothing has a unique identifier -->
+                            <desc> Damjumper, resårstickad av prima fintrådigt <fcat:fabric>helyllegarn</fcat:fabric> . Modell
+                                med <fcat:design type="sleeve"> trekvartslång ärm </fcat:design>, <!-- design,color,size and fabric are customized elements -->
+                                <fcat:design type="buttons">knäppning i ryggen</fcat:design>,
+                                    <fcat:design type="nekline">rysch med
+                                    genom-dragssnodd</fcat:design> vid halsen samt <fcat:design
+                                    type="embroidery">»handplockat» effektfullt
+                                    mönster</fcat:design>. Fin-nes <fcat:color>istålgrått, brunt
+                                    eller svart</fcat:color>. Storlek <fcat:size>42</fcat:size>. En
+                                piffig ny- het till billigt pris. </desc>
+                            <desc type="price">Pris pr styck <num>24.65</num></desc></p>
+                        <!-- the price of each article of clothing has been encoded using desc element with price as its type. -->
+                    </item>
+                    <item>
+                        <p>
+                            <idno>Y 1423</idno><desc> Damjumper i slätstickning och tillverkad av ett
+                            prima fintrå-digt <fcat:fabric>helyllegarn</fcat:fabric> i elastisk
+                            patentstickning. Modell med <fcat:design type="sleeve">trekvartslång
+                                ärm</fcat:design>, <fcat:design type="neckline">liten krage samt
+                                knytarrangemang</fcat:design> vid halsen. En stilig nyhet som kommer
+                            att vinna Edert fulla gillande. Storlek <fcat:size>42</fcat:size>.
+                                Finnes i <fcat:color>lackrött eller gammalrosa</fcat:color> färg.</desc> <desc
+                                type="price"> Pris pr styck <num>22.95</num></desc></p>
+                    </item>
+                    <item>
+                        <p>
+                            <idno>Y 1425</idno>
+                            <desc>Här är en ny klädsam och praktisk jumper i slät resårstick-ning
+                                och tillverkad av extra prima
+                                <fcat:fabric>helyllegarn</fcat:fabric>. Modell med <fcat:design
+                                    type="neckline">båt-skärning</fcat:design>, <fcat:design
+                                    type="sleeve">trekvartslång ärm</fcat:design> samt <fcat:design
+                                    type="embroidery">inplockat effektfullt mönster i
+                                    vitt</fcat:design>. En modell som Ni kommer att fä mycket glädje
+                                utav. Storlek <fcat:size>42</fcat:size>. Färger:
+                                    <fcat:color>kornblått/vitt, grått/vitt, cyklamen/vitt eller
+                                    ljusgrönt/vitt</fcat:color>.</desc>
+                            <desc type="price"> Pris pr styck <num>22.50</num>
+                            </desc></p>
+                    </item>
+                    <item>
+                        <p><idno>Y 1427</idno>
+                            <desc>Damjumper, patentstickad av extra prima <fcat:fabric>helylle
+                                    kamgarn</fcat:fabric> i <fcat:color>ljusgult, lackrött eller
+                                    stålgrått</fcat:color>. Storlek <fcat:size>40 och
+                                42</fcat:size>. Modell med <fcat:design type="sleeve">kort
+                                    ärm</fcat:design>, <fcat:design type="neckline">plisserad
+                                    halsringning</fcat:design> samt resårstickad midjelinning. En
+                                nätt och alltid lika populär modell.</desc>
+                            <desc type="price">Pris pr styck endast <num>18.90</num></desc></p>
+                    </item>
+                </list>
+                    </div> <!-- end of list div -->
+            </div>
+                
+            <div type="column" n="2">
+                <div type="list">
+                <list>
+                    <item>
+                        <p><idno>Y 1429 </idno>
+                            <desc>Damjumper i <fcat:color>chokladbrun</fcat:color> färg. Modern
+                                modell med <fcat:design type="sleeve">trekvarts-lång
+                                    ärm</fcat:design>, <fcat:design type="neckline"
+                                    >pulloverhals</fcat:design> samt <fcat:design type="emroidery"
+                                    >kurbelbroderier på överpartiet samt på
+                                    överärmarna</fcat:design>. Patentstickad av ett fintrådigt extra
+                                prima <fcat:fabric>helyllegarn</fcat:fabric>. Storlek
+                                    <fcat:size>42</fcat:size>.</desc>
+                            <desc type="price">Pris pr styck <num>18.25</num></desc></p>
+                    </item>
+                    <item>
+                        <p>
+                            <idno>Y 1431</idno>
+                            <desc>Här en ny extranyhet av Eisers välkända tillverkning. Dam-jumper,
+                                patentstickad av prima <fcat:fabric>helyllegarn</fcat:fabric>.
+                                Förstklassig passform och konfektion garanteras. Modell med
+                                    <fcat:design type="neckline">rund halsringning</fcat:design>
+                                    samt<fcat:design type="embroidery"> tre-radig garnering vid
+                                    halsen i guldfärg</fcat:design>.<fcat:design type="sleeve">Lång
+                                    ärm</fcat:design>. En hyperelegant ny-het. Storlek <fcat:size>42
+                                    och 44</fcat:size>. Finnes i <fcat:color>brunt, svart eller
+                                    petrol-grönt</fcat:color>.</desc>
+                            <desc type="price">Pris pr styck <num>28.50</num></desc></p>
+                    </item>
+                    <item>
+                        <p>
+                            <idno>Y 1433</idno>
+                            <desc>Damjumper med lätt ruggad yttersida, <fcat:design type="neckline"
+                                    >rund pulloverhals</fcat:design>, <fcat:design type="sleeve"
+                                    >lång ärm samt resårstickade muddar </fcat:design> och
+                                midjelinning. Resårstickad av prima
+                                    <fcat:fabric>helyllegarn</fcat:fabric> i en elegant
+                                slätstickning. Finnes i <fcat:color>grått, cykla-menrött, ljusblått
+                                    eller ljusgult</fcat:color>. Storlek
+                                    <fcat:size>42—44</fcat:size>. En kvali-tetsjumper, lågt
+                                prissatt.</desc>
+                            <desc type="price">Pris pr styck endast <num>20.80</num>
+                            </desc></p>
+                    </item>
+                    <item>
+                        <p>
+                            <idno> Y 1435</idno>
+                            <desc>Damjumper i en ny piffig modell, <fcat:design type="neckline"
+                                    >krage med ny skärning</fcat:design>, <fcat:design type="sleeve"
+                                    >lång ärm</fcat:design> samt med ett effektfullt <fcat:design
+                                    type="emboridery">»handplockat» mönster framtill</fcat:design>.
+                                Patentstickad av extra prima <fcat:fabric>helylle
+                                    kamgarn</fcat:fabric> i en mjuk och behag-lig stickning. Storlek
+                                    <fcat:size>42</fcat:size>. Färger: <fcat:color>diamantsvart,
+                                    stålgrått eller brunt</fcat:color>. En kontinental nyhet till
+                                billigt pris.</desc>
+                            <desc type="price">Pris pr styck <num>26.90</num></desc>
+                        </p>
+                    </item>
+                </list>
+                    </div> <!--end of list div-->
+            </div><!-- end of column div -->
+            <fw type="pagenumber">40</fw>
+            <fw type="footer"><orgName>A.-B. WISKADALS
+                FABRIK</orgName>,<placeName>BORÅS</placeName></fw>
+
+            </div>
+            <pb n="41"/>
+            <div type="page" facs="#pg_41">
+            <div type="column" n="1">
+                <div type="list">
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1439</idno>
+                                <desc>Damjumper av Eisers välkända fabrikat vilket garanterar
+                                    per-fekt passform och snitt. Modell med <fcat:design
+                                        type="neckline">spetsmönstrad halslinning</fcat:design>,
+                                        <fcat:design type="sleeve">holk-ärm</fcat:design>, samt
+                                    konststickad i rutstickning. Ett förnämt plagg till extra
+                                    billigt pris. Tillverkad av mjuk och smidig kvalitet
+                                        <fcat:fabric>ylle/rayon/nylon</fcat:fabric>. Storlek
+                                        <fcat:size>42</fcat:size>. Färger: <fcat:color>svart,
+                                        stålgrått, brunt eller petrolgrönt</fcat:color>.</desc>
+                                <desc type="price">Pris pr styck endast <num>16.70</num></desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>OBS. PRISET 13.45</head>
+                </div>
+
+                <div type="list">
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1441</idno>
+                                <desc>Damjumper konststickad av en mjuk och smidig kvalitet
+                                        <fcat:fabric>ylle/rayon/nylon</fcat:fabric>. Modell med
+                                        <fcat:design type="sleeve">kort ärm med mudd</fcat:design>,
+                                    resårstickad midje-linning samt <fcat:design type="neckline"
+                                        >rund pulloverhals</fcat:design>. Finnes i
+                                        <fcat:color>svart, stålgrått, brunt eller
+                                        petrolgrönt</fcat:color>. Storlek <fcat:size>42</fcat:size>.
+                                    En tunn, smidig jumpernyhet till fabulöst billigt pris.</desc>
+                                <desc type="price"> Pris pr styck endast<num>13.45</num>
+                                </desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>Kraftigt ruggad. ANGORA IMIT.</head>
+                </div>
+                <div type="list">
+                    <list>
+
+                        <item>
+                            <p>
+                                <idno>Y 1443 </idno>
+                                <desc>Damjumper med yttersidan liknande äkta angora. Modell med
+                                        <fcat:design type="sleeve"> kort ärm</fcat:design>,
+                                        <fcat:design type="neckline">båtskärning</fcat:design> vid
+                                    halsen samt resårstickad midjelinning. En utsökt elegant nyhet
+                                    till billigt pris. Finnes i <fcat:color>gammalrosa, svart,
+                                        ljus-grått, petrolgrönt eller kanelbrunt</fcat:color>.
+                                    Storlek <fcat:size>40 och 42</fcat:size> . Stickad av extra
+                                    prima mjukt och smidigt
+                                    <fcat:fabric>yllegarn</fcat:fabric>.</desc>
+                                <desc type="price">Pris pr styck endast <num>15.60</num></desc>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <idno>Y 1445</idno>
+                                <desc>Damjumper tillverkad av extra prima
+                                        <fcat:fabric>helyllegarn</fcat:fabric> i slätstick-ning.
+                                    Modell med <fcat:design type="sleeve">kort ärm</fcat:design>,
+                                        <fcat:design type="neckline">plisserad
+                                        halslinning</fcat:design> samt resårstickad midjelinning.
+                                    Finnes i <fcat:color>svart, brunt eller marinblått</fcat:color>.
+                                    Storlek <fcat:size>42</fcat:size>. En exklusiv nyhet till
+                                    billigt pris.</desc>
+                                <desc type="price">Pris pr styck endast <num>22.90</num></desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+            </div>
+            <div type="column" n="2">
+                <div>
+                    <head>SPETSBLUS OBS. Endast 10.00</head>
+                </div>
+                <div type="list">
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1447</idno>
+                                <desc> Spetsblus av prima mjukt och smidigt
+                                        <fcat:fabric>bomullsgarn</fcat:fabric> i ett ytterst elegant
+                                    genombrutet »spetsmönster». Modell med <fcat:design
+                                        type="neckline">krage i ny
+                                        skärning</fcat:design>,<fcat:design type="sleeve">kort ärm
+                                        med uppvikt mudd</fcat:design> samt resårstickad
+                                    midjelinning. En myc-ket populär nyhet till fabulöst billigt
+                                    pris. Storlek <fcat:size>40 och 42</fcat:size>.</desc>
+                                <desc type="price">Pris pr styck endast <num>10.00</num></desc>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <idno>Y 1449</idno> <desc> Damjumper med <fcat:design type="sleeve">lång
+                                    ärm</fcat:design>. Hela jumpern mönsterstickad i nätmönster och
+                                tillverkad av extra prima <fcat:fabric>helylle
+                                kamgarn</fcat:fabric>. En mycket elegant och välsittande jumper till
+                                billigt pris. Storlek <fcat:size>42</fcat:size>. Lev. i
+                                    <fcat:color>stålgrått, gammalrosa eller
+                                        diamantsvart</fcat:color>. Köp genast. Ni blir belåten.</desc> <desc
+                                    type="price">Pris pr styck endast <num>25.40</num>
+                                </desc>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <idno>Y 1451</idno>
+                                <desc>Damjumper i halvlång modell stickad i ett extra prima
+                                    im-porterat <fcat:fabric>2-trådigt helyllegarn</fcat:fabric> i
+                                    en smidig rundstickning. Trevlig modell med <fcat:design
+                                        type="neckline">båtskärning</fcat:design> vid halsen,
+                                        <fcat:design type="sleeve">trekvartslång ärm</fcat:design>
+                                    samt <fcat:design type="embroidery">bård nedtill och över
+                                        bröstet</fcat:design>. Finnes i <fcat:color>svart,
+                                        cyklamenrött, kanelbrunt, ljus-grått eller
+                                        ljusgrönt</fcat:color>. Storlek
+                                    <fcat:size>42</fcat:size>.</desc>
+                                <desc type="price">Pris pr styck endast <num>15.75</num></desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>DAMJACKA MED "PLYSCHKRAGE"</head>
+                </div>
+                <div type="list">
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1453</idno><desc> Damsportjacka tillverkad av en mjuk och
+                                    smidig <fcat:fabric>filtliknande ylletrikå</fcat:fabric> i
+                                        <fcat:color>grön</fcat:color> färg. Jackan är försedd med
+                                        <fcat:design type="buttons">två fickor i
+                                        bälgfaçon</fcat:design>, dubbla muddar och midjelinning samt
+                                    med »<fcat:design type="neckline">plyschkrage</fcat:design>» i
+                                    mörk-brunt. En kraftig och slitstark sportjacka som säljes i
+                                    mas-sor. Storlek <fcat:size>42</fcat:size>.</desc>
+                                <desc type="price">Pris pr styck endast <num>33.60</num>
+                                </desc>
+                            </p>
+                        </item>
+                    </list>
+                </div> <!-- end of list div -->
+            </div> <!-- end of column div -->
+            <fw type="footer"><orgName>A.-B. WISKADALS
+                FABRIK</orgName>,<placeName>BORÅS</placeName></fw>
+            <fw type="pagenumber">41</fw>
+            </div> <!--end of page div-->
+        </body>
+    </text>
+</TEI>
